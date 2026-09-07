@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
     display: flex;
@@ -7,7 +8,7 @@ header{
     justify-content: space-between;
     font-weight: bold;
     align-items: center;
-    padding: 16px 8rem;
+    padding: 10px 8rem;
     border-bottom: 1px solid #716767;
 }
 nav ol {
@@ -47,4 +48,76 @@ a:hover{
     color: white;
     padding: 4px;
 }   
+.first-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    padding: 150px 40px 40px 40px;
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 30px
+}
+img {
+    inline-size:100%;
+    block-size: 100%;
+    object-fit: cover;
+    display: block;
+    
+}
+.first-para{
+    padding: 10px;
+    
+}
+.Achievement {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
 
+}
+.stat {
+    flex: 1;
+    padding:15px;
+}
+.stat h2{
+    font-size: 32px;
+    margin: 0;
+    color: #007bff;
+}
+.small {
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+    margin: 5px 0 0 0;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+
+}
+.quote{
+    border: black solid 4px;
+    border-radius: 10px;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+.callnow{
+    border: rgba(157, 141, 141, 0.912) solid 1px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    padding: 6px;
+}
+.quote a{
+    color: white;
+    text-decoration: none;
+}
+.quote a:hover{
+    color: blue;
+}
