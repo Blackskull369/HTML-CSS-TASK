@@ -189,6 +189,7 @@ button{
     border: black 3px solid;
     padding: 30px;
     border-radius: 10px;
+    margin-left: 30px;
 }
 .info{
     border: black 3px solid;
@@ -213,7 +214,7 @@ button{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 50px;
-    margin: 50px 50px 0 0;
+    margin: 50px 50px 0 30px;
     padding: 50px;
     align-items: center;
     justify-items: center;
