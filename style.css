@@ -207,3 +207,27 @@ button{
     margin: 0;
     padding:0;
 }
+.footergrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 50px;
+    padding: 50px;
+    align-items: center;
+    justify-items: center;
+    border: black 10px solid;
+    border-radius: 10px;
+    background-color: rgba(15, 15, 76, 0.716);
+    color: white
+
+
+}
+.footerinfo a {
+    text-decoration: none;
+    color:white;
+}
+.footerinfo {
+    padding: 10px;
+    line-height: 1.3;
+    
+}
