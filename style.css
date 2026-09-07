@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: flex-end;
+}
+nav ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    gap: 20px;
+    
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+nav ol li a{
+    text-decoration: none;
+    color: black
+}
+a:hover{
+    color: blue;
+}
+.getquotebutton {
+    border: black 6px solid;
+    border-radius: 7px;
+    padding: 5px;
+    background-color: black;
+    color:  white;
+}
+.logobox{
+    border: black 3px solid;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    padding: 4px;
+
+}
