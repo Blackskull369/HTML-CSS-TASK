@@ -54,7 +54,7 @@ a:hover{
     align-items: stretch;
     padding: 150px 40px 40px 40px;
     margin: 0 auto;
-    max-width: 1200px;
+    
     gap: 30px
 }
 img {
@@ -120,4 +120,20 @@ img {
 }
 .quote a:hover{
     color: blue;
+}
+.GRID{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 40px;
+    align-items: stretch;
+
+}
+.content{
+    padding: 50px 45px;
+    justify-content: center;
+    text-align: center;
+    border: gray 3px solid;
+    border-radius: 4px;
+    
 }
