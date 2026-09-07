@@ -1,22 +1,29 @@
+*{
+    box-sizing: border-box;
+}
 header{
     display: flex;
     gap: 20px;
     justify-content: space-between;
     font-weight: bold;
-    align-items: flex-end;
+    align-items: center;
+    padding: 16px 8rem;
+    border-bottom: 1px solid #716767;
 }
 nav ol {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding:0;
     display:flex;
     gap: 20px;
+
     
 }
 .logo{
     display: flex;
     gap: 10px;
     align-items: center;
+    
     
 }
 nav ol li a{
@@ -39,5 +46,5 @@ a:hover{
     background-color: black;
     color: white;
     padding: 4px;
+}   
 
-}
